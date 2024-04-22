@@ -1,0 +1,48 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes </help_text><element><id>UMLClass</id><coordinates><x>290</x><y>60</y><w>450</w><h>360</h></coordinates><panel_attributes>Animal
+--
+_/Atributos/_
+																		
+private String nombre
+private String especie
+private String raza
+private Cliente propietario
+private ArrayList&lt;Consulta&gt; historialConsultas
+
+--
+_/Operaciones/Métodos/_
+
+public void agregarConsulta(Consulta consulta)
+public String getNombre()
+public void setNombre(String nombre)
+public String getEspecie()
+public void setEspecie(String especie)
+public String getRaza()
+public void setRaza(String raza)
+public Cliente getPropietario()
+public void setPropietario(Cliente propietario)
+public ArrayList&lt;Consulta&gt; getHistorialConsultas()
+public void setHistorialConsultas(ArrayList&lt;Consulta&gt; historialConsultas)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>110</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>530</y><w>290</w><h>210</h></coordinates><panel_attributes>Cliente
+--
+_/Atributos/_
+																		
+private String nombre
+private String direccion
+private String telefono
+private ArrayList&lt;Animal&gt; listaAnimales
+
+--
+_/Operaciones/Métodos/_
+
+public void agregarConsulta(Consulta consulta)</panel_attributes><additional_attributes></additional_attributes></element></diagram>
