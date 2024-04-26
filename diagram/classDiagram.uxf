@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes </help_text><element><id>UMLClass</id><coordinates><x>170</x><y>170</y><w>450</w><h>370</h></coordinates><panel_attributes>Animal
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes </help_text><element><id>UMLClass</id><coordinates><x>200</x><y>170</y><w>450</w><h>370</h></coordinates><panel_attributes>Animal
 --
 _/Atributos/_
 																		
@@ -22,7 +22,7 @@ _/Operaciones/Métodos/_
 + public Cliente getPropietario()
 + public void setPropietario(Cliente propietario)
 + public ArrayList&lt;Consulta&gt; getHistorialConsultas()
-+ public void setHistorialConsultas(ArrayList&lt;Consulta&gt; historialConsultas)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>890</x><y>0</y><w>370</w><h>310</h></coordinates><panel_attributes>Cliente
++ public void setHistorialConsultas(ArrayList&lt;Consulta&gt; historialConsultas)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>0</y><w>370</w><h>310</h></coordinates><panel_attributes>Cliente
 --
 _/Atributos/_
 																		
@@ -42,7 +42,7 @@ _/Operaciones/Métodos/_
 + public String getDireccion()
 + public void setDireccion(String direccion)
 + public String getNombre()
-+ public void setNombre(String nombre)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>690</y><w>320</w><h>360</h></coordinates><panel_attributes>Consulta
++ public void setNombre(String nombre)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>690</y><w>320</w><h>360</h></coordinates><panel_attributes>Consulta
 --
 _/Atributos/_
 																		
@@ -65,7 +65,7 @@ _/Operaciones/Métodos/_
 + public String getTratamiento()
 + public void setTratamiento(String tratamiento)
 + public Veterinario getVeterinario()
-+ public void setVeterinario(Veterinario veterinario)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>890</x><y>440</y><w>370</w><h>290</h></coordinates><panel_attributes>Veterinaria
++ public void setVeterinario(Veterinario veterinario)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>440</y><w>370</w><h>290</h></coordinates><panel_attributes>Veterinaria
 --
 _/Atributos/_
 																		
@@ -83,7 +83,7 @@ _/Operaciones/Métodos/_
 + public ArrayList&lt;Animal&gt; getListaAnimales()
 + public void setListaAnimales(ArrayList&lt;Animal&gt; listaAnimales)
 + public ArrayList&lt;Cliente&gt; getListaClientes()
-+ public void setListaClientes(ArrayList&lt;Cliente&gt; listaClientes)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>830</y><w>330</w><h>230</h></coordinates><panel_attributes>Veterinaro
++ public void setListaClientes(ArrayList&lt;Cliente&gt; listaClientes)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>830</x><y>830</y><w>330</w><h>230</h></coordinates><panel_attributes>Veterinaro
 --
 _/Atributos/_
 																		
@@ -97,20 +97,20 @@ _/Operaciones/Métodos/_
 + public String getNombre()
 + public void setNombre(String nombre)
 + public String getEspecialidad()
-+ public void setEspecialidad(String especialidad)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>100</y><w>300</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
++ public void setEspecialidad(String especialidad)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>100</y><w>300</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m2=1..1
 m1=1..*
-&lt; tiene a su cargo</panel_attributes><additional_attributes>10;110;280;10</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>290</y><w>300</w><h>230</h></coordinates><panel_attributes>lt=-
+&lt; tiene a su cargo</panel_attributes><additional_attributes>10;110;280;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>290</y><w>300</w><h>230</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=0..1
-&lt; atiende a</panel_attributes><additional_attributes>10;10;280;210</additional_attributes></element><element><id>Relation</id><coordinates><x>1250</x><y>90</y><w>160</w><h>460</h></coordinates><panel_attributes>lt=-
+&lt; atiende a</panel_attributes><additional_attributes>10;10;280;210</additional_attributes></element><element><id>Relation</id><coordinates><x>1280</x><y>90</y><w>160</w><h>460</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=0..1
 ^
-tiene</panel_attributes><additional_attributes>10;10;110;10;110;430;10;430</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>280</y><w>190</w><h>450</h></coordinates><panel_attributes>lt=-
+tiene</panel_attributes><additional_attributes>10;10;110;10;110;430;10;430</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>280</y><w>190</w><h>450</h></coordinates><panel_attributes>lt=-
 m1=1..1
 m2=0..*
-acude a  &gt;</panel_attributes><additional_attributes>90;10;10;10;10;420;170;420</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>800</y><w>260</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+acude a  &gt;</panel_attributes><additional_attributes>90;10;10;10;10;420;170;420</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>800</y><w>260</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1..*
 m2=1..1
 &lt; trabaja en</panel_attributes><additional_attributes>10;10;240;40</additional_attributes></element></diagram>
